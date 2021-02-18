@@ -1,0 +1,47 @@
+{
+  "streams": [
+    {
+      "title": "My Stream",
+      "description": "This is my stream.",
+      "id": 1
+    },
+    {
+      "title": "Streaming Again",
+      "description": "This is my second time streaming.",
+      "id": 2
+    },
+    {
+      "title": "Wildan",
+      "description": "Aziz",
+      "id": 3
+    },
+    {
+      "title": "One Two",
+      "description": "Three Four",
+      "id": 4
+    },
+    {
+      "title": "Lorem",
+      "description": "Ipsum",
+      "id": 5
+    },
+    {
+      "title": "Hello",
+      "description": "World",
+      "userId": "107582318423084728493",
+      "id": 6
+    },
+    {
+      "title": "Test",
+      "description": "Test has done succesfully!",
+      "userId": "107582318423084728493",
+      "id": 7
+    },
+    {
+      "title": "Good Morning!",
+      "description": "Good Bye!",
+      "userId": "107582318423084728493",
+      "id": 8
+    }
+  ]
+}
