@@ -8,4 +8,4 @@ before_install:
   - cd $TRAVIS_BUILD_DIR/client
   - docker build -f Dockerfile.dev -t wildanazz/client .
 script:
-  - docker run -e CI=true wildanazz/client yarn run test --coverage
+  - docker run -e CI=true wildanazz/client yarn run test --coverage --passWithNoTests
