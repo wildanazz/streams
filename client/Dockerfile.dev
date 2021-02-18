@@ -1,0 +1,21 @@
+# Pull official base image
+FROM node:alpine AS client-build
+
+# Set working directory
+WORKDIR /app/client
+
+# Add '/app/client/node_modules/.bin' to $PATH
+ENV PATH /app/client/node_modules/.bin:$PATH
+
+# Install app dependencies
+COPY package.json ./
+
+RUN yarn install
+
+# Add app
+COPY . ./
+
+EXPOSE 3000
+
+# Start app
+CMD ["yarn", "start"]
